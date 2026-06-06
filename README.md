@@ -1,8 +1,47 @@
+# NexusAI — Intelligent Chat Assistant
+
+A full-stack AI-powered chat application built with React, FastAPI, MongoDB, and Groq (Llama 3.3).
+
+## Tech Stack
+
+| Layer      | Technology                        |
+|------------|----------------------------------|
+| Frontend   | React 18, Vite, Tailwind CSS     |
+| Backend    | FastAPI (Python), Pydantic       |
+| AI Model   | Llama 3.3 70B via Groq API       |
+| Database   | MongoDB (via Motor async driver) |
+| Deployment | Docker Compose                   |
+
+---
+
+## Project Structure
+ai-chat-assistant/
+├── backend/
+│   ├── main.py              # FastAPI app — all routes
+│   ├── requirements.txt
+│   ├── Dockerfile
+│   └── .env.example
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── components/
+│   │   │   ├── Sidebar.jsx
+│   │   │   ├── MessageBubble.jsx
+│   │   │   ├── ChatInput.jsx
+│   │   │   └── WelcomeScreen.jsx
+│   │   ├── hooks/
+│   │   │   └── useChat.js
+│   │   └── utils/
+│   │       └── api.js
+│   ├── index.html
+│   ├── Dockerfile
+│   └── nginx.conf
+└── docker-compose.yml
 ---
 
 ## API Endpoints
 
-| Method | Endpoint                          | Description                 |
+| Method | Endpoint                          | Description                  |
 |--------|----------------------------------|------------------------------|
 | GET    | `/`                              | Health check                 |
 | POST   | `/chat`                          | Send a message, get AI reply |
