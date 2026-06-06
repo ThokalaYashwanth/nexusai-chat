@@ -13,33 +13,26 @@ A full-stack AI-powered chat application built with React, FastAPI, MongoDB, and
 | Deployment | Docker Compose                   |
 
 ---
-## Project Structure
+## 📁 Project Structure
 
 ```text
-ai-chat-assistant/
-├── backend/
-│   ├── main.py                 # FastAPI app – all routes
-│   ├── requirements.txt
-│   ├── Dockerfile
-│   └── .env.example
-├── frontend/
-│   ├── src/
-│   │   ├── App.jsx
-│   │   ├── components/
-│   │   │   ├── Sidebar.jsx
-│   │   │   ├── MessageBubble.jsx
-│   │   │   ├── ChatInput.jsx
-│   │   │   └── WelcomeScreen.jsx
-│   │   ├── hooks/
-│   │   │   └── useChat.js
-│   │   └── utils/
-│   │       └── api.js
-│   ├── index.html
-│   ├── Dockerfile
-│   └── nginx.conf
-└── docker-compose.yml
+nexusai-chat/
+├── backend/          # FastAPI backend APIs
+├── frontend/         # React frontend
+├── docker-compose.yml
 ```
 
+### Backend
+- `main.py` – FastAPI application and API routes
+- `requirements.txt` – Python dependencies
+- `Dockerfile` – Backend container configuration
+
+### Frontend
+- `App.jsx` – Root React component
+- `components/` – Reusable UI components
+- `hooks/useChat.js` – Chat state management
+- `utils/api.js` – Backend API integration
+```
 ## API Endpoints
 
 | Method | Endpoint                          | Description                  |
