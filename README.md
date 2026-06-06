@@ -13,11 +13,12 @@ A full-stack AI-powered chat application built with React, FastAPI, MongoDB, and
 | Deployment | Docker Compose                   |
 
 ---
-
 ## Project Structure
+
+```text
 ai-chat-assistant/
 ├── backend/
-│   ├── main.py              # FastAPI app — all routes
+│   ├── main.py                 # FastAPI app – all routes
 │   ├── requirements.txt
 │   ├── Dockerfile
 │   └── .env.example
@@ -37,7 +38,7 @@ ai-chat-assistant/
 │   ├── Dockerfile
 │   └── nginx.conf
 └── docker-compose.yml
----
+```
 
 ## API Endpoints
 
