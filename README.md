@@ -4,7 +4,7 @@ A full-stack AI-powered chat application built with React, FastAPI, MongoDB, and
 
 ## Tech Stack
 
-| Layer      | Technology                        |
+| Layer      | Technology                       |
 |------------|----------------------------------|
 | Frontend   | React 18, Vite, Tailwind CSS     |
 | Backend    | FastAPI (Python), Pydantic       |
@@ -13,26 +13,10 @@ A full-stack AI-powered chat application built with React, FastAPI, MongoDB, and
 | Deployment | Docker Compose                   |
 
 ---
-## 📁 Project Structure
 
-```text
-nexusai-chat/
-├── backend/          # FastAPI backend APIs
-├── frontend/         # React frontend
-├── docker-compose.yml
-```
+## Project Structure
+---
 
-### Backend
-- `main.py` – FastAPI application and API routes
-- `requirements.txt` – Python dependencies
-- `Dockerfile` – Backend container configuration
-
-### Frontend
-- `App.jsx` – Root React component
-- `components/` – Reusable UI components
-- `hooks/useChat.js` – Chat state management
-- `utils/api.js` – Backend API integration
-```
 ## API Endpoints
 
 | Method | Endpoint                          | Description                  |
@@ -93,13 +77,7 @@ npm run dev
 Visit **http://localhost:8000/docs** for interactive Swagger documentation.
 
 ---
-## Docker Images
 
-Backend Docker Hub Image:
-https://hub.docker.com/r/thokalayashwanth1/nexusai-backend
-
-Frontend Docker Hub Image:
-https://hub.docker.com/r/thokalayashwanth1/nexusai-frontend
 ## Features
 
 - Multi-turn conversations with full context memory
@@ -122,4 +100,3 @@ https://hub.docker.com/r/thokalayashwanth1/nexusai-frontend
 | Frontend (/10) | React 18 + Tailwind CSS, glassmorphism UI, animated transitions, dark mode, responsive layout |
 | Backend (/10) | FastAPI with 6 REST endpoints, async MongoDB via Motor, session management, Pydantic validation, error handling |
 | Visual Quality (/10) | DM Sans font, custom brand colors, chat bubbles, markdown rendering, typing dots, welcome screen |
-ENDOFFILE
