@@ -93,7 +93,13 @@ npm run dev
 Visit **http://localhost:8000/docs** for interactive Swagger documentation.
 
 ---
+## Docker Images
 
+Backend Docker Hub Image:
+https://hub.docker.com/r/thokalayashwanth1/nexusai-backend
+
+Frontend Docker Hub Image:
+https://hub.docker.com/r/thokalayashwanth1/nexusai-frontend
 ## Features
 
 - Multi-turn conversations with full context memory
