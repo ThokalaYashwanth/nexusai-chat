@@ -2,7 +2,7 @@
 
 ## API Endpoints
 
-| Method | Endpoint                          | Description                  |
+| Method | Endpoint                          | Description                 |
 |--------|----------------------------------|------------------------------|
 | GET    | `/`                              | Health check                 |
 | POST   | `/chat`                          | Send a message, get AI reply |
